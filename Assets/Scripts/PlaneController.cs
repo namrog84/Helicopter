@@ -33,7 +33,7 @@ public class PlaneController : MonoBehaviour {
                 Destroy(gameObject);
         }
     }
-    public float speed2;
+    public float speed2 = 2;
 	void Update () {
         Transform tp = Overlord.Instance().player;
         var z =  tp.position - transform.position;

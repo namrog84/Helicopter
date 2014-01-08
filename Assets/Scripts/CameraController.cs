@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour {
         Vector3 currentPos = gameObject.transform.position;
 
 
-        Vector3 newPosition = Vector3.Lerp(currentPos, playerPos, .002f);
+        Vector3 newPosition = Vector3.Lerp(currentPos, playerPos, .005f);
 
         gameObject.transform.position = new Vector3(newPosition.x, newPosition.y, gameObject.transform.position.z);
 

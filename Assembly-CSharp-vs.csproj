@@ -46,15 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BulletMovement.cs" />
-     <Compile Include="Assets\Buttons.cs" />
-     <Compile Include="Assets\CameraController.cs" />
-     <Compile Include="Assets\MissileController.cs" />
-     <Compile Include="Assets\Overlord.cs" />
-     <Compile Include="Assets\PlaneController.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Rotation2D.cs" />
-     <Compile Include="Assets\Spin.cs" />
+     <Compile Include="Assets\Scripts\BulletMovement.cs" />
+     <Compile Include="Assets\Scripts\Buttons.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\MissileController.cs" />
+     <Compile Include="Assets\Scripts\Overlord.cs" />
+     <Compile Include="Assets\Scripts\PlaneController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Rotation2D.cs" />
+     <Compile Include="Assets\Scripts\Spin.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
      <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
